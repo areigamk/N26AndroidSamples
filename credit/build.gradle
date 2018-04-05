@@ -4,7 +4,6 @@ android {
     def androidVersions = rootProject.ext.android
 
     compileSdkVersion androidVersions.compileSdkVersion
-    buildToolsVersion androidVersions.buildToolsVersion
 
 
     defaultConfig {
@@ -28,6 +27,7 @@ android {
     testOptions {
         unitTests.returnDefaultValues = true
     }
+    buildToolsVersion '27.0.3'
 }
 
 dependencies {
